@@ -1,7 +1,7 @@
 # DHCP Configuration Lab
 
 ## Overview
-This lab demonstrates how to configure a Cisco Router as a **DHCP server** in Packet Tracer to automatically assign IP addresses to network devices
+This lab demonstrates how to configure a Cisco Router as a **DHCP server** in Packet Tracer to automatically assign IP addresses to network devices.
 
 ## Steps I Followed
 1. Network Topology Setup
