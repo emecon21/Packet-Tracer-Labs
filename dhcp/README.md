@@ -41,4 +41,4 @@ This lab demonstrates how to configure a Cisco Router as a **DHCP server** in Pa
    - Basic Cisco IOS commands for DHCP
 
 
-You can also follow the steps above or explore the configurations already in place.
+You can follow the steps above or explore the configurations already in place.
