@@ -13,7 +13,7 @@ This lab demonstrates how to configure a Cisco Router as a **DHCP server** in Pa
    - Entered enable and configure terminal mode
    - Assigned IP addresses to the router interfaces (g0/0: 192.168.1.1/24) (g0/1: 172.16.2.1/24)
    - Enabled the interfaces with "no shutdown"
-   - ![Interface](dhcp/images/interface-config.png)
+   
 
 3. DHCP Configuration
    - Created DHCP pools:
