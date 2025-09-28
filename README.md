@@ -2,7 +2,7 @@
 
 ## Overview
 This repository contains a collection of networking labs created in **Cisco Packet Tracer**.  
-Each lab demonstrates key networking concepts with practical configurations and testing.
+Each lab shows networking concepts with practical configurations and testing.
 
 ## Lab Topics
 - **DHCP** – Configuring routers as DHCP servers for dynamic IP assignment
