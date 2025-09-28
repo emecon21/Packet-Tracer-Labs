@@ -7,7 +7,7 @@ This lab demonstrates how to configure a Cisco Router as a **DHCP server** in Pa
 1. Network Topology Setup
    - Added one router, two switches and multiple PCs in Packet Tracer
    - Connected devices using copper straight-through cables
-   - ![Network Topology](dhcp/images/topology.png)
+     
      
 2. Router Configuration
    - Entered enable and configure terminal mode
