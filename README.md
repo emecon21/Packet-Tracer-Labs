@@ -5,8 +5,8 @@ This repository contains a collection of networking labs created in **Cisco Pack
 Each lab demonstrates key networking concepts with practical configurations and testing.
 
 ## Lab Topics
-- **VLANs** – Creating VLANs, trunking, and inter-VLAN routing  
-- **DHCP** – Configuring routers as DHCP servers for dynamic IP assignment  
+- **DHCP** – Configuring routers as DHCP servers for dynamic IP assignment
+- **VLANs** – Creating VLANs, trunking, and inter-VLAN routing    
 - **Routing** – Static and dynamic routing protocols (RIP, OSPF, EIGRP)  
 - **ACLs** – Implementing access control lists for network security  
 - **Switch Security** – Port security, DHCP snooping, and device hardening  
