@@ -1,1 +1,1 @@
-## INTER-VLAN Routing Configuration Lab
+## INTER-VLAN Routing and Trunking Configurations Lab
