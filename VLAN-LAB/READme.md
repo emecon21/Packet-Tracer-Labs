@@ -1,7 +1,6 @@
 ## Inter-VLAN Routing and Trunking Configurations Lab
 This lab is my practice on how to configure VLANs in Cisco Packet Tracer.
-The goal is to separate devices into different networks (FINANCE and MARKETING), and then use a router (Router-on-a-Stick) to allow communication between them.
-
+The setup allows devices in different VLANs to communicate with each other through a single router interface configured with sub-interfaces.
 
 ## Steps Followed
 1. Network Topology Setup
