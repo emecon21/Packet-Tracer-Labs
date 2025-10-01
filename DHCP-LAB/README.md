@@ -36,10 +36,7 @@ This lab shows how to configure a Cisco Router as a **DHCP server** to automatic
 5. Verification
    - Pinged from one PC to another to ensure connectivity
    - Checked that each PC got a valid IP in the correct range
-  
-## What I Learned
-   - How DHCP automates IP addressing
-   - Basic Cisco IOS commands for DHCP
+
 
 
 
