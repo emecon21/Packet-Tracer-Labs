@@ -78,6 +78,15 @@ The goal is to separate devices into different networks (FINANCE and MARKETING),
      ip add 192.168.2.1 255.255.255.0
 
 5. PC Configurations
+   - PC1 (VLAN10): 192.168.1.11 / 255.255.255.0 / Gateway: 192.168.1.1
+   - PC2 (VLAN10): 192.168.1.12 / 255.255.255.0 / Gateway: 192.168.1.1
+
+   - PC3 (VLAN 20): 192.168.2.21 / 255.255.255.0 / Gateway: 192.168.2.1
+   - PC4 (VLAN 20): 192.168.2.22 / 255.255.255.0 / Gateway: 192.168.2.1
+
+6. Testing
+   - Pinged from PC1 to PC3 (successful)
+   - Verified connectivity using ping and ipconfig in the PCs
 
 
 
