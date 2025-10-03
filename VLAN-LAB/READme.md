@@ -1,6 +1,6 @@
 ## Inter-VLAN Routing and Trunking Configurations Lab
-This lab is my practice on how to configure VLANs in Cisco Packet Tracer.
-The setup allows devices in different VLANs to communicate with each other through a single router interface configured with sub-interfaces.
+This is a lab practice on how to configure VLANs in Cisco Packet Tracer.
+The setup allows devices in different VLANs to communicate with each other through a single router interface configured with sub-interfaces (Router-on-a-stick).
 
 ## Steps Followed
 1. Network Topology Setup
@@ -85,7 +85,7 @@ The setup allows devices in different VLANs to communicate with each other throu
 
 6. Testing
    - Pinged from PC1 to PC3 (successful)
-   - Verified connectivity using ping and ipconfig in the PCs
+   - Verified connectivity using "ping" and "ipconfig /all" in the PCs
 
 
 
