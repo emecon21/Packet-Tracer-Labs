@@ -30,25 +30,25 @@ The setup allows devices in different VLANs to communicate with each other throu
    
      switchport mode access
    
-     switchport access vlan 20
+     switchport access vlan 10
 
    - interface fa0/2
    
      switchport mode access
    
-     switchport access vlan 20
+     switchport access vlan 10
 
    - interface fa0/3
    
      switchport mode access
    
-     switchport access vlan 10
+     switchport access vlan 20
 
    - interface fa0/4
 
      switchport mode access
 
-     switchport access vlan 10
+     switchport access vlan 20
 
    Configured Trunk Port (to router):
 
@@ -68,20 +68,20 @@ The setup allows devices in different VLANs to communicate with each other throu
      
      encapsulation dot1q 10
      
-     ip add 192.168.1.1 255.255.255.0
+     ip add 192.168.10.1 255.255.255.0
 
    - interface fa0/0.20
 
      encapsulation dot1q 20
 
-     ip add 192.168.2.1 255.255.255.0
+     ip add 192.168.20.1 255.255.255.0
 
 5. PC Configurations
-   - PC1 (VLAN10): 192.168.1.11 / 255.255.255.0 / Gateway: 192.168.1.1
-   - PC2 (VLAN10): 192.168.1.12 / 255.255.255.0 / Gateway: 192.168.1.1
+   - PC1 (VLAN10): 192.168.10.10 / 255.255.255.0 / Gateway: 192.168.10.1
+   - PC2 (VLAN10): 192.168.10.11 / 255.255.255.0 / Gateway: 192.168.10.1
 
-   - PC3 (VLAN 20): 192.168.2.21 / 255.255.255.0 / Gateway: 192.168.2.1
-   - PC4 (VLAN 20): 192.168.2.22 / 255.255.255.0 / Gateway: 192.168.2.1
+   - PC3 (VLAN 20): 192.168.20.20 / 255.255.255.0 / Gateway: 192.168.20.1
+   - PC4 (VLAN 20): 192.168.20.21 / 255.255.255.0 / Gateway: 192.168.20.1
 
 6. Testing
    - Pinged from PC1 to PC3 (successful)
