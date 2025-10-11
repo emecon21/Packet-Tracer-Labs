@@ -23,6 +23,11 @@ The goal was to make both networks communicate automatically, without manually a
    | PC3 | NIC | 192.168.5.5 | 192.168.5.0/24 |
    | PC4 | NIC | 192.168.5.6 | 192.168.5.0/24 |
 
+3. Router Configurations
+
+   On R1
+   
+
 
 
 
