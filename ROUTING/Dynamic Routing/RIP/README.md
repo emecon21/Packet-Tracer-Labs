@@ -26,6 +26,22 @@ The goal was to make both networks communicate automatically, without manually a
 3. Router Configurations
 
    On R1
+   - Entered global configuration mode, enabled and advertised the networks connected to R1
+   - router rip
+   - network 192.168.1.0
+   - network 192.168.3.0
+   - end
+
+   On R2
+   
+   Did the same on R2 to advertise it's networks;
+   - router rip
+   - network 192.168.1.0
+   - network 192.168.5.0
+   - end
+
+4. Testing and Verification
+   - Ping from PC1 to PC3 (successful)
    
 
 
