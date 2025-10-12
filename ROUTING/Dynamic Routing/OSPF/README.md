@@ -1,1 +1,24 @@
 ## Dynamic Routing (OSPF) Configurations
+This lab demonstrates Dynamic Routing with the OSPF protocol between two networks in Cisco Packet Tracer.
+The goal was to make both networks communicate automatically, using OSPF, a dynamic routing protocol that chooses the shortest path to destinations.
+
+## Steps Followed
+1. Network Topology Setup
+   - Two switches
+   - Two routers (R1 and R2)
+   - Four PCs
+   - Connected devices on each network
+   - Connected both routers with serial DTE cable
+
+2. IP Addressing Plan
+
+| Device | Interface | IP Address | Network |
+|---------|------------|-------------|----------|
+| PC1 | NIC | 192.168.30.2 | 192.168.30.0/24 |
+| PC2 | NIC | 192.168.30.3 | 192.168.30.0/24 |
+| R1 | FA0/0 | 192.168.30.1 | 192.168.30.0/24 |
+| R1 | SE0/0/1 | 10.0.0.1 | 10.0.0.0/30 |
+| R2 | SE0/0/1 | 10.0.0.2 | 10.0.0.0/30 |
+| R2 | FA0/0 | 192.168.40.1 | 192.168.40.0/24 |
+| PC3 | NIC | 192.168.40.2 | 192.168.40.0/24 |
+| PC4 | NIC | 192.168.40.3 | 192.168.40.0/24 |
