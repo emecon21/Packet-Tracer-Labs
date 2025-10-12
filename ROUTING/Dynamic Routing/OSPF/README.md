@@ -22,3 +22,17 @@ The goal was to make both networks communicate automatically, using OSPF, a dyna
 | R2 | FA0/0 | 192.168.40.1 | 192.168.40.0/24 |
 | PC3 | NIC | 192.168.40.2 | 192.168.40.0/24 |
 | PC4 | NIC | 192.168.40.3 | 192.168.40.0/24 |
+
+3. Router Configurations
+   
+   On R1
+   - Entered global configuration mode, enabled OSPF process ID 1, and advertised connected networks:
+   - router ospf 1
+   - network 192.168.30.0 0.0.0.255 area 0
+   - network 10.0.0.0 0.0.0.3 area 0
+   - end
+
+   On R2
+   - 
+
+
