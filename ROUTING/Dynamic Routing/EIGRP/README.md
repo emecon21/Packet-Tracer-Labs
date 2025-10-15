@@ -4,13 +4,16 @@ This project demonstrates **Enhanced Interior Gateway Routing Protocol (EIGRP)**
 The goal was to enable automatic route sharing between both networks using EIGRP - a fast and efficient dynamic routing protocol.
 
 ## Steps Followed
+1. Network Topology Setup
+   
    - Two switches
    - Two routers (R1 and R2)
    - Four PCs
    - Connected devices on each network
    - Connected both routers with serial DTE cable
 
-## IP Addressing Plan
+2. IP Addressing Plan
+   
    | Device | Interface | IP Address | Network |
    |---------|------------|-------------|----------|
    | PC1 | NIC | 192.168.3.2 | 192.168.3.0/24 |
@@ -21,6 +24,8 @@ The goal was to enable automatic route sharing between both networks using EIGRP
    | R2 | fa0/1 | 192.168.40.1 | 192.168.40.0/24 |
    | PC3 | NIC | 192.168.40.3 | 192.168.40.0/24 |
    | PC4 | NIC | 192.168.10.4 | 192.168.40.0/24 |
+
+3. Router Configuration
 
 
 
