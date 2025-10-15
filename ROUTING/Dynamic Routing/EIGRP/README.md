@@ -27,6 +27,24 @@ The goal was to enable automatic route sharing between both networks using EIGRP
 
 3. Router Configuration
 
+   On R1
+   - config t
+   - router eigrp 1
+   - network 10.0.0.0 0.255.255.255
+   - network 192.168.3.0 0.0.0.255
+   - end
+
+   On R2
+   Created new adjacency by simply inputing the network addresses alone
+   - config t
+   - router eigrp 1
+   - network 10.0.0.0
+   - network 192.168.4.0
+   - end
+
+4. Testing and Verification
+   - Ping from PC1 to PC3 & PC4 (successful)
+
 
 
 
