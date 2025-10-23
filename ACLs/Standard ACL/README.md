@@ -39,7 +39,7 @@ The goal was to control network traffic by allowing access to two hosts (IT PCs)
    - exit
 
 
-   Created a Named Standard ACL
+   Created a Named Standard ACL to allow IT PCs and block HR PCs access to the Server network
    - ip access-list standard BLOCK_HR
    - permit host 192.168.10.10
    - permit host 192.168.10.20
