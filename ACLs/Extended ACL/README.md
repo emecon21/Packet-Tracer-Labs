@@ -1,3 +1,3 @@
-## Numbered Extended ACL Configuration
+## Named Extended ACL Configuration
 
 
