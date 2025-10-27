@@ -1,13 +1,15 @@
 # Packet-Tracer-Labs
 
-This repository contains a collection of networking labs created in **Cisco Packet Tracer**.  Each lab shows networking concepts with practical configurations and testing.
+This repository stores all networking labs that I created in **Cisco Packet Tracer**.  
+
+Networking concepts, configuration and testing are all included.
 
 
 ## Lab Topics
-- **DHCP** – Configuring routers as DHCP servers for dynamic IP assignment
-- **VLANs** – Creating VLANs, trunking, and inter-VLAN routing    
-- **Routing** – Static and dynamic routing protocols (RIP, OSPF, EIGRP)  
-- **ACLs** – Implementing access control lists for network security  
-- **Switch Security** – Port security, DHCP snooping, and device hardening  
-- **Troubleshooting** – Broken topologies to practice diagnosis and fixes  
+- **DHCP** – Configuration of routers to serve as DHCP.
+- **VLANs** – Creation of VLANs , trunking, and inter-VLAN routing.    
+- **Routing** – Static and dynamic routing protocols (RIP, OSPF, EIGRP).  
+- **ACLs** – Implemention of access control lists for network security.  
+- **Switch Security** – Port security, DHCP snooping, and device hardening.  
+- **Troubleshooting** – Troubleshooting processes in broken topologies. 
 
