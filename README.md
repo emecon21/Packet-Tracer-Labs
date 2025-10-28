@@ -10,6 +10,4 @@ Networking concepts, configuration and testing are all included.
 - **VLANs** – Creation of VLANs , trunking, and inter-VLAN routing.    
 - **Routing** – Static and dynamic routing protocols (RIP, OSPF, EIGRP).  
 - **ACLs** – Implemention of access control lists for network security.  
-- **Switch Security** – Port security, DHCP snooping, and device hardening.  
-- **Troubleshooting** – Troubleshooting processes in broken topologies. 
 
