@@ -1,6 +1,6 @@
 # Packet-Tracer-Labs
 
-This repository stores all networking labs that I created in **Cisco Packet Tracer**.  
+This repository conatins all the networking labs that I created in **Cisco Packet Tracer**.  
 
 Networking concepts, configuration and testing are all included.
 
