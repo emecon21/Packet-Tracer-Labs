@@ -1,6 +1,7 @@
 ## Dynamic Routing (EIGRP) Configuration
 
-This project demonstrates **Enhanced Interior Gateway Routing Protocol (EIGRP)** configuration between routers in Cisco Packet Tracer.  
+This lab shows how I configured **Enhanced Interior Gateway Routing Protocol (EIGRP)** routing between routers.
+
 The goal was to enable automatic route sharing between both networks using EIGRP - a fast and efficient dynamic routing protocol.
 
 ## Steps Followed
@@ -35,7 +36,7 @@ The goal was to enable automatic route sharing between both networks using EIGRP
    - end
 
    On R2
-   Created new adjacency by simply inputing the network addresses alone
+   I then created a new adjacency by simply inputing the network addresses alone
    - config t
    - router eigrp 1
    - network 10.0.0.0
@@ -44,6 +45,8 @@ The goal was to enable automatic route sharing between both networks using EIGRP
 
 4. Testing and Verification
    - Ping from PC1 to PC3 & PC4 (successful)
+  
+
 
 
 
