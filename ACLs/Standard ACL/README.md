@@ -1,6 +1,6 @@
 ## Named Standard ACL Configuration 
 
-This lab demonstrates a Named Standard Access Control List (ACL) configuration in Cisco Packet Tracer.
+This is a lab demonstration of a Named Standard Access Control List (ACL) configuration.
 
 The goal was to control network traffic by allowing access to two hosts (IT PCs) and denying access to the other two hosts (HR PCs), all from the same network based on their source IP addresses.
 
