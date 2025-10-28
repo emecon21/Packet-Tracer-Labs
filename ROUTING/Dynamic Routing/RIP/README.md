@@ -1,5 +1,6 @@
 ## Dynamic Routing (RIP) Configurations
-This lab demonstrates Dynamic Routing with the RIP protocol between two networks in Cisco Packet Tracer.  
+This lab shows how I configured Dynamic Routing with the RIP protocol between two networks.
+
 The goal was to make both networks communicate automatically, without manually adding static routes.
 
 ## Steps Followed 
@@ -16,8 +17,8 @@ The goal was to make both networks communicate automatically, without manually a
    |---------|------------|-------------|----------|
    | PC1 | NIC | 192.168.3.10 | 192.168.3.0/24 |
    | PC2 | NIC | 192.168.3.11 | 192.168.3.0/24 |
-   | R1 | FA0/0 | 192.168.1.3 | 192.168.1.0/24 |
    | R1 | FA0/1 | 192.168.3.1 | 192.168.3.0/24 |
+   | R1 | FA0/0 | 192.168.1.3 | 192.168.1.0/24 |
    | R2 | FA0/0 | 192.168.1.4 | 192.168.1.0/24 |
    | R2 | FA0/1 | 192.168.5.1 | 192.168.5.0/24 |
    | PC3 | NIC | 192.168.5.5 | 192.168.5.0/24 |
