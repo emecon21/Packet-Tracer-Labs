@@ -52,7 +52,7 @@ The configuration was to deny HTTP traffic from devices on NETWORK C to the Serv
     - exit
       
 
-  I then created a Named Extended ACL to deny HTTP from Network C to the Server network while permitting other network and ip traffic;
+  I then created a Named Extended ACL to deny HTTP from Network C to the Server's network while permitting other network and ip traffic;
     
     - ip access-list extended BLOCK_HTTP
     - deny tcp 192.168.30.0 0.0.0.255 192.168.10.0 0.0.0.255 eq 80
@@ -75,4 +75,5 @@ The configuration was to deny HTTP traffic from devices on NETWORK C to the Serv
     - attempted an http request to the server before applying ACL
     - confirmed ACL imlementation after applying ACL
     - IP traffics from Network B allowed
-    - HTTP traffic from Network C denied 
+    - HTTP traffic denied, and other ip access allowed from Network C 
+    - carried out a ping test to confirm other ip access allowed from Network C
