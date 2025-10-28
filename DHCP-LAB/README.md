@@ -1,6 +1,6 @@
 # DHCP Configuration Lab
 
-This lab shows how to configure a Cisco Router as a **DHCP server** to automatically assign IP addresses to network devices.
+This lab shows how I configured a Cisco Router as a **DHCP server** to automatically assign IP addresses to network devices.
 
 ## Steps Followed
 1. Network Topology Setup
