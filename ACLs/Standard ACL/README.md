@@ -28,7 +28,7 @@ The goal was to control network traffic by allowing access to two hosts (IT PCs)
    
    On R1
    
-   Assigned IP addresses to router interfaces after PC configurations
+   I assigned IP addresses to router interfaces after PC configurations
    - global configuration mode
    - int g0/1
    - ip address 172.20.1.1 255.255.255.0
